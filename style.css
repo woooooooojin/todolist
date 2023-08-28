@@ -23,6 +23,9 @@ body{
 .wrap h1{
     text-align: center;
     margin-top: 50px;
+    text-shadow:  5px 5px #284D8E, 8px 8px #4D8CBF, 11px 11px #5FA9D9;
+    color: #F1C164;
+    font-size: 40px;
 }
 
 form{
