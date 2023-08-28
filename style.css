@@ -12,13 +12,13 @@ a{
 }
 
 body{
-    padding: 30px;
+    padding: 10px;
 }
 .wrap{
     width: 100%;
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - 20px);
     border: 1px solid #ccc;
-    padding:  0 20px;
+    padding:  0 10px;
 }
 .wrap h1{
     text-align: center;
