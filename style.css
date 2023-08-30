@@ -19,13 +19,15 @@ body{
     min-height: calc(100vh - 20px);
     border: 1px solid #ccc;
     padding:  0 10px;
+    background: url(./background.png) no-repeat 50% 50%;
+    background-size: cover;
 }
 .wrap h1{
     text-align: center;
     margin-top: 50px;
-    text-shadow:  5px 5px #284D8E, 8px 8px #4D8CBF, 11px 11px #5FA9D9;
-    color: #F1C164;
-    font-size: 40px;
+    text-shadow:  3px 3px #F2BED1, 6px 6px #FDCEDF, 9px 9px #F8E8EE;
+    color: #E8A0BF;
+    font-size: 45px;
 }
 
 form{
@@ -39,14 +41,16 @@ form{
     display: block;
     outline: none;
     padding: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 .add{
     width: 60px;
     height: 40px;
     margin-left: 10px;
-    background-color: steelblue;
+    background-color: #F2BED1;
     color: #fff;
-    border: 1px solid steelblue;
+    border: 1px solid  #F2BED1;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -76,9 +80,9 @@ form{
     width: 60px;
     height: 40px;
     margin-left: 10px;
-    background-color: steelblue;
+    background-color: #F2BED1;
     color: #fff;
-    border: 1px solid steelblue;
+    border: 1px solid #F2BED1;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -86,9 +90,9 @@ form{
     width: 60px;
     height: 40px;
     margin-left: 10px;
-    background-color: steelblue;
+    background-color: #F2BED1;
     color: #fff;
-    border: 1px solid steelblue;
+    border: 1px solid #F2BED1;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -105,10 +109,10 @@ form{
     height: 40px;
     margin: 30px auto;
     display: block;
-    background-color: steelblue;
+    background-color: #F2BED1;
     color: #fff;
-    border: 1px solid steelblue;
+    border: 1px solid #F2BED1;
     border-radius: 30px;
     cursor: pointer;
-    box-shadow: 0 0 10px steelblue;
+    box-shadow: 0 0 10px #F2BED1;
 }
