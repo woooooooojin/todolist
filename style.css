@@ -1,41 +1,74 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-li{
+
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
 
-body{
+body {
     padding: 10px;
 }
-.wrap{
+
+.wrap {
     width: 100%;
     min-height: calc(100vh - 20px);
     border: 1px solid #ccc;
-    padding:  0 10px;
+    padding: 0 15px;
     background: url(./background.png) no-repeat 50% 50%;
     background-size: cover;
 }
-.wrap h1{
+
+.wrap h1 {
     text-align: center;
     margin-top: 50px;
-    text-shadow:  3px 3px #F2BED1, 6px 6px #FDCEDF, 9px 9px #F8E8EE;
-    color: #E8A0BF;
+    /* text-shadow:  3px 3px #F2BED1, 6px 6px #FDCEDF, 9px 9px #F8E8EE; */
+
+    text-shadow: -2px 0px #F2BED1, 0px 2px #F2BED1, 2px 0px #F2BED1, 0px -2px #F2BED1;
+    color: #fff;
     font-size: 45px;
 }
 
-form{
+
+h1:before,
+h1:after {
+    content: '[';
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    height: 100%;
+    font-size: 1.25em;
+    color: #fff;
+    vertical-align: middle;
+}
+
+h1:before {
+    margin-right: 5px;
+}
+
+h1:after {
+    content: ']';
+    margin-left: 5px;
+}
+
+
+
+
+
+form {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     margin-top: 50px;
 }
-#todo_input{
+
+#todo_input {
     width: 300px;
     height: 40px;
     display: block;
@@ -44,39 +77,48 @@ form{
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-.add{
+
+.add {
     width: 60px;
     height: 40px;
     margin-left: 10px;
     background-color: #F2BED1;
     color: #fff;
-    border: 1px solid  #F2BED1;
+    border: 1px solid #F2BED1;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.container{
+.container {
     margin-top: 100px;
 }
-.todo_list{}
 
-.todo{
+.todo_list {}
+
+.todo {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 12px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px #888;
 
 }
-.todo li{
+
+.todo li {
     width: 300px;
     height: 40px;
     border-bottom: 1px solid #ccc;
     line-height: 40px;
     padding: 0 5px;
 }
-.todo_desc{
-   font-size: 15px;
+
+.todo_desc {
+    font-size: 15px;
 }
-.todo .complete{
+
+.todo .complete {
     width: 60px;
     height: 40px;
     margin-left: 10px;
@@ -86,7 +128,8 @@ form{
     border-radius: 5px;
     cursor: pointer;
 }
-.todo .delete{
+
+.todo .delete {
     width: 60px;
     height: 40px;
     margin-left: 10px;
@@ -98,13 +141,13 @@ form{
 }
 
 
-.done{
+.done {
     text-decoration: line-through;
     color: #777;
     opacity: 0.5;
 }
 
-.alldel{
+.alldel {
     width: 150px;
     height: 40px;
     margin: 30px auto;
@@ -114,5 +157,5 @@ form{
     border: 1px solid #F2BED1;
     border-radius: 30px;
     cursor: pointer;
-    box-shadow: 0 0 10px #F2BED1;
+    /* box-shadow: 0 0 10px #F2BED1; */
 }
