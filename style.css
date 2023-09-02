@@ -9,6 +9,10 @@ body{
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
+    padding: 10px;
+    background: url(./pinkcanvas.jpeg) no-repeat;
+    background-size: cover;
+    /* background-color: #ffe7e7; */
 }
 li {
     list-style: none;
@@ -19,17 +23,14 @@ a {
     color: black;
 }
 
-body {
-    padding: 10px;
-}
+
 
 .wrap {
     width: 100%;
     min-height: calc(100vh - 20px);
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     padding: 0 15px;
-    background: url(./background.png) no-repeat 50% 50%;
-    background-size: cover;
+  
 }
 
 .wrap h1 {
@@ -38,7 +39,7 @@ body {
     text-shadow:  3px 3px #F2BED1, 6px 6px #FDCEDF, 9px 9px #F8E8EE;
 
     /* text-shadow: -2px 0px #F2BED1, 0px 2px #F2BED1, 2px 0px #F2BED1, 0px -2px #F2BED1; */
-    color: #FFF6F4;
+    color: #F9F5F6;
     font-size: 45px;
 }
 
@@ -52,7 +53,6 @@ h1:after {
     height: 100%;
     font-size: 1.25em;
     color: #fff;
-    vertical-align: middle;
 }
 
 h1:before {
@@ -63,8 +63,8 @@ h1:after {
     content: ']';
     margin-left: 5px;
 }
- */
 
+ */
 
 
 
@@ -80,8 +80,10 @@ form {
     display: block;
     outline: none;
     padding: 0 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #eee;
     border-radius: 5px;
+    background-color: #F9F5F6;
+    /* box-shadow: 3px 3px 10px #867070;; */
 }
 
 .add {
@@ -90,10 +92,10 @@ form {
     margin-left: 10px;
     background-color: #F2BED1;
     color: #fff;
-    border: 1px solid #F2BED1;
+    border: 1px solid #eee;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 5px 5px 3px #eee;
+    /* box-shadow: 3px 3px 10px #867070; */
 }
 
 .container {
@@ -109,7 +111,8 @@ form {
     padding: 10px;
     /* border: 1px solid #ccc; */
     border-radius: 10px;
-    box-shadow: 5px 5px 3px #eee;
+    box-shadow: 5px 5px 15px #867070;
+    background-color: #F9F5F6;
 
 }
 
@@ -164,6 +167,5 @@ form {
     border: 1px solid #F2BED1;
     border-radius: 30px;
     cursor: pointer;
-    /* box-shadow: 0 0 10px #F2BED1; */
-    box-shadow: 5px 5px 3px #eee;
+    box-shadow: 3px 3px 12px #867070;
 }
