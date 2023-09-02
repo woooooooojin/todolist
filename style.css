@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+}
 li {
     list-style: none;
 }
@@ -29,15 +35,15 @@ body {
 .wrap h1 {
     text-align: center;
     margin-top: 50px;
-    /* text-shadow:  3px 3px #F2BED1, 6px 6px #FDCEDF, 9px 9px #F8E8EE; */
+    text-shadow:  3px 3px #F2BED1, 6px 6px #FDCEDF, 9px 9px #F8E8EE;
 
-    text-shadow: -2px 0px #F2BED1, 0px 2px #F2BED1, 2px 0px #F2BED1, 0px -2px #F2BED1;
-    color: #fff;
+    /* text-shadow: -2px 0px #F2BED1, 0px 2px #F2BED1, 2px 0px #F2BED1, 0px -2px #F2BED1; */
+    color: #FFF6F4;
     font-size: 45px;
 }
 
 
-h1:before,
+/* h1:before,
 h1:after {
     content: '[';
     display: inline-block;
@@ -57,7 +63,7 @@ h1:after {
     content: ']';
     margin-left: 5px;
 }
-
+ */
 
 
 
@@ -87,6 +93,7 @@ form {
     border: 1px solid #F2BED1;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 5px 5px 3px #eee;
 }
 
 .container {
@@ -100,9 +107,9 @@ form {
     justify-content: center;
     margin-top: 12px;
     padding: 10px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     border-radius: 10px;
-    box-shadow: 5px 5px 3px #888;
+    box-shadow: 5px 5px 3px #eee;
 
 }
 
@@ -158,4 +165,5 @@ form {
     border-radius: 30px;
     cursor: pointer;
     /* box-shadow: 0 0 10px #F2BED1; */
+    box-shadow: 5px 5px 3px #eee;
 }
