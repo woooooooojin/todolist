@@ -12,7 +12,7 @@ body{
     padding: 10px;
     /* background: url(./pinkcanvas.jpeg) no-repeat;
     background-size: cover; */
-    background-color: #F9F5F6;
+    background-color: #fff;
 }
 li {
     list-style: none;
@@ -37,10 +37,10 @@ a {
 .wrap h1 {
     text-align: center;
     margin-top: 50px;
-    text-shadow:  3px 3px #F2BED1, 6px 6px #FDCEDF, 9px 9px #F8E8EE;
+    text-shadow:  3px 3px #96B6C5, 6px 6px #ADC4CE, 9px 9px #CEE6F3;
 
     /* text-shadow: -2px 0px #F2BED1, 0px 2px #F2BED1, 2px 0px #F2BED1, 0px -2px #F2BED1; */
-    color: #F9e5e6;
+    color: #fff;
     font-size: 45px;
 }
 
@@ -81,9 +81,9 @@ form {
     display: block;
     outline: none;
     padding: 0 5px;
-    border: 1px solid #eee;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #F9F5F6;
+    background-color: #fff;
     /* box-shadow: 3px 3px 10px #867070;; */
 }
 
@@ -91,7 +91,7 @@ form {
     width: 60px;
     height: 40px;
     margin-left: 10px;
-    background-color: #F2BED1;
+    background-color: #ADC4CE;
     color: #fff;
     border: 1px solid #eee;
     border-radius: 5px;
@@ -108,12 +108,12 @@ form {
 .todo {
     display: flex;
     justify-content: center;
-    margin-top: 12px;
+    margin-top: 15px;
     padding: 10px;
     /* border: 1px solid #ccc; */
     border-radius: 10px;
-    box-shadow: 5px 5px 15px #867070;
-    background-color: #F9F5F6;
+    box-shadow: 5px 5px 15px #777;
+    background-color: #fff;
 
 }
 
@@ -133,9 +133,9 @@ form {
     width: 60px;
     height: 40px;
     margin-left: 10px;
-    background-color: #F2BED1;
+    background-color: #ADC4CE;
     color: #fff;
-    border: 1px solid #F2BED1;
+    border: 1px solid #ADC4CE;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -144,9 +144,9 @@ form {
     width: 60px;
     height: 40px;
     margin-left: 10px;
-    background-color: #F2BED1;
+    background-color: #ADC4CE;
     color: #fff;
-    border: 1px solid #F2BED1;
+    border: 1px solid #ADC4CE;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -163,9 +163,9 @@ form {
     height: 40px;
     margin: 30px auto;
     display: block;
-    background-color: #F2BED1;
+    background-color: #ADC4CE;
     color: #fff;
-    border: 1px solid #F2BED1;
+    border: 1px solid #ADC4CE;
     border-radius: 30px;
     cursor: pointer;
     box-shadow: 3px 3px 12px #867070;
